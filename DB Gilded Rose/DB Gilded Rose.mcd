@@ -1,0 +1,12 @@
+STOCK LES PRODUITS, NO< PRODUIT, N0> STOCK
+PRODUIT: Id_Produit, Categorie, Nom, Qualite, Jour_Vente
+AVIS DU PRODUIT, N0 AVIS, N0 PRODUIT
+
+STOCK: Id_Stock, Id_Produit, Categorie_Stock, Quantite_Stock, Date_Stock
+USER: Id_User, Mail_User, MDP_User, Name_User, Surname_User
+AVIS: Id_Avis, Contenu_Avis, Id_user, Id_produit, Date_Avis, Note_Avis
+
+
+
+
+RELATION AVIS USER, N0 USER, N0 AVIS

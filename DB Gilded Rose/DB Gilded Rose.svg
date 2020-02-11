@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="442" height="363" view_box="0 0 442 363"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 11 Feb 2020 07:57:10</desc>
+
+<rect id="frame" x="0" y="0" width="442" height="363" fill="#ffffff" stroke="none" stroke-width="0"/>
+
+<!-- Association RELATION AVIS USER -->
+<line x1="233" y1="211" x2="233" y2="329" stroke="#d6604d" stroke-width="2"/>
+<text x="238.0" y="287" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="369" y1="211" x2="233" y2="329" stroke="#d6604d" stroke-width="2"/>
+<text x="295" y="250.143529904" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-RELATION AVIS USER">
+	<path d="M 293 304 a 14 14 90 0 1 14 14 V 329 h -148 V 318 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 307 329.0 v 11 a 14 14 90 0 1 -14 14 H 173 a 14 14 90 0 1 -14 -14 V 329.0 H 148" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="159" y="304" width="148" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="159" y1="329" x2="307" y2="329" stroke="#d6604d" stroke-width="1"/>
+	<text x="166" y="321.7" fill="#000000" font-family="Verdana" font-size="12">RELATION AVIS USER</text>
+</g>
+
+<!-- Association AVIS DU PRODUIT -->
+<line x1="369" y1="211" x2="369" y2="68" stroke="#d6604d" stroke-width="2"/>
+<text x="374.0" y="135" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="233" y1="68" x2="369" y2="68" stroke="#d6604d" stroke-width="2"/>
+<text x="278" y="85.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-AVIS DU PRODUIT">
+	<path d="M 419 43 a 14 14 90 0 1 14 14 V 68 h -128 V 57 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 433 68.0 v 11 a 14 14 90 0 1 -14 14 H 319 a 14 14 90 0 1 -14 -14 V 68.0 H 128" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="305" y="43" width="128" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="305" y1="68" x2="433" y2="68" stroke="#d6604d" stroke-width="1"/>
+	<text x="312" y="60.7" fill="#000000" font-family="Verdana" font-size="12">AVIS DU PRODUIT</text>
+</g>
+
+<!-- Association STOCK LES PRODUITS -->
+<line x1="233" y1="68" x2="85" y2="68" stroke="#d6604d" stroke-width="2"/>
+<text x="166" y="85.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<path d="M 161.0 68.0 L 173.0 62.0 L 169.0 68.0 L 173.0 74.0 Z" fill="#d6604d" stroke-width="0"/>
+<line x1="85" y1="211" x2="85" y2="68" stroke="#d6604d" stroke-width="2"/>
+<text x="90.0" y="144" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<path d="M 85.0 152.0 L 79.0 140.0 L 85.0 144.0 L 91.0 140.0 Z" fill="#d6604d" stroke-width="0"/>
+<g id="association-STOCK LES PRODUITS">
+	<path d="M 147 43 a 14 14 90 0 1 14 14 V 68 h -152 V 57 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 161 68.0 v 11 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 68.0 H 152" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="9" y="43" width="152" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="9" y1="68" x2="161" y2="68" stroke="#d6604d" stroke-width="1"/>
+	<text x="16" y="60.7" fill="#000000" font-family="Verdana" font-size="12">STOCK LES PRODUITS</text>
+</g>
+
+<!-- Entity PRODUIT -->
+<g id="entity-PRODUIT">
+	<g id="frame-PRODUIT">
+		<rect x="193" y="9" width="80" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="193" y="34.0" width="80" height="93" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="193" y="9" width="80" height="118" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="193" y1="34" x2="273" y2="34" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="204" y="26.7" fill="#000000" font-family="Verdana" font-size="12">PRODUIT</text>
+	<text x="198" y="51.7" fill="#000000" font-family="Verdana" font-size="12">Id_Produit</text>
+	<line x1="198" y1="54" x2="262" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="198" y="68.8" fill="#000000" font-family="Verdana" font-size="12">Categorie</text>
+	<text x="198" y="85.8" fill="#000000" font-family="Verdana" font-size="12">Nom</text>
+	<text x="198" y="102.8" fill="#000000" font-family="Verdana" font-size="12">Qualite</text>
+	<text x="198" y="119.8" fill="#000000" font-family="Verdana" font-size="12">Jour_Vente</text>
+</g>
+
+<!-- Entity AVIS -->
+<g id="entity-AVIS">
+	<g id="frame-AVIS">
+		<rect x="322" y="143" width="94" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="322" y="168.0" width="94" height="111" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="322" y="143" width="94" height="136" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="322" y1="168" x2="416" y2="168" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="353" y="160.7" fill="#000000" font-family="Verdana" font-size="12">AVIS</text>
+	<text x="327" y="185.7" fill="#000000" font-family="Verdana" font-size="12">Id_Avis</text>
+	<line x1="327" y1="188" x2="373" y2="188" stroke="#000000" stroke-width="1"/>
+	<text x="327" y="202.7" fill="#000000" font-family="Verdana" font-size="12">Contenu_Avis</text>
+	<text x="327" y="219.8" fill="#000000" font-family="Verdana" font-size="12">Id_user</text>
+	<text x="327" y="236.8" fill="#000000" font-family="Verdana" font-size="12">Id_produit</text>
+	<text x="327" y="253.8" fill="#000000" font-family="Verdana" font-size="12">Date_Avis</text>
+	<text x="327" y="270.8" fill="#000000" font-family="Verdana" font-size="12">Note_Avis</text>
+</g>
+
+<!-- Entity USER -->
+<g id="entity-USER">
+	<g id="frame-USER">
+		<rect x="183" y="152" width="100" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="183" y="177.0" width="100" height="93" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="183" y="152" width="100" height="118" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="183" y1="177" x2="283" y2="177" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="216" y="169.7" fill="#000000" font-family="Verdana" font-size="12">USER</text>
+	<text x="188" y="194.7" fill="#000000" font-family="Verdana" font-size="12">Id_User</text>
+	<line x1="188" y1="197" x2="236" y2="197" stroke="#000000" stroke-width="1"/>
+	<text x="188" y="211.8" fill="#000000" font-family="Verdana" font-size="12">Mail_User</text>
+	<text x="188" y="228.8" fill="#000000" font-family="Verdana" font-size="12">MDP_User</text>
+	<text x="188" y="245.8" fill="#000000" font-family="Verdana" font-size="12">Name_User</text>
+	<text x="188" y="262.8" fill="#000000" font-family="Verdana" font-size="12">Surname_User</text>
+</g>
+
+<!-- Entity STOCK -->
+<g id="entity-STOCK">
+	<g id="frame-STOCK">
+		<rect x="30" y="152" width="110" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="30" y="177.0" width="110" height="93" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="30" y="152" width="110" height="118" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="30" y1="177" x2="140" y2="177" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="63" y="169.7" fill="#000000" font-family="Verdana" font-size="12">STOCK</text>
+	<text x="35" y="194.7" fill="#000000" font-family="Verdana" font-size="12">Id_Stock</text>
+	<line x1="35" y1="197" x2="90" y2="197" stroke="#000000" stroke-width="1"/>
+	<text x="35" y="211.8" fill="#000000" font-family="Verdana" font-size="12">Id_Produit</text>
+	<text x="35" y="228.8" fill="#000000" font-family="Verdana" font-size="12">Categorie_Stock</text>
+	<text x="35" y="245.8" fill="#000000" font-family="Verdana" font-size="12">Quantite_Stock</text>
+	<text x="35" y="262.8" fill="#000000" font-family="Verdana" font-size="12">Date_Stock</text>
+</g>
+</svg>

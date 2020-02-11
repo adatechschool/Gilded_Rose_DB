@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>STOCK LES PRODUITS</span> (
+    <span class='foreign primary'>Id_Produit</span>,
+    <span class='foreign primary'>Id_Stock</span>
+  )
+</div>
+<div>
+  <span class='relation'>PRODUIT</span> (
+    <span class='primary'>Id_Produit</span>,
+    <span class='normal'>Categorie</span>,
+    <span class='normal'>Nom</span>,
+    <span class='normal'>Qualite</span>,
+    <span class='normal'>Jour_Vente</span>
+  )
+</div>
+<div>
+  <span class='relation'>AVIS DU PRODUIT</span> (
+    <span class='foreign primary'>Id_Avis</span>,
+    <span class='foreign primary'>Id_Produit</span>
+  )
+</div>
+<div>
+  <span class='relation'>STOCK</span> (
+    <span class='primary'>Id_Stock</span>,
+    <span class='normal'>Id_Produit</span>,
+    <span class='normal'>Categorie_Stock</span>,
+    <span class='normal'>Quantite_Stock</span>,
+    <span class='normal'>Date_Stock</span>
+  )
+</div>
+<div>
+  <span class='relation'>USER</span> (
+    <span class='primary'>Id_User</span>,
+    <span class='normal'>Mail_User</span>,
+    <span class='normal'>MDP_User</span>,
+    <span class='normal'>Name_User</span>,
+    <span class='normal'>Surname_User</span>
+  )
+</div>
+<div>
+  <span class='relation'>AVIS</span> (
+    <span class='primary'>Id_Avis</span>,
+    <span class='normal'>Contenu_Avis</span>,
+    <span class='normal'>Id_user</span>,
+    <span class='normal'>Id_produit</span>,
+    <span class='normal'>Date_Avis</span>,
+    <span class='normal'>Note_Avis</span>
+  )
+</div>
+<div>
+  <span class='relation'>RELATION AVIS USER</span> (
+    <span class='foreign primary'>Id_User</span>,
+    <span class='foreign primary'>Id_Avis</span>
+  )
+</div>
+</div>
+</body>
+</html>
