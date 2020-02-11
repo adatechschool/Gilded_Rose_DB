@@ -1,28 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-import threading
-from socket import *
+import http.server
+import socketserver
 
-class Server(socket):
-    def __init__(self, ip, port, backlog = 0): 
-        super().__init__(AF_INET, SOCK_STREAM)
+PORT = 8000
 
-        self.bind_ip = ip
-        self.bind_port = port
+Handler = http.server.SimpleHTTPRequestHandler
 
-        self.bind((self.bind_ip, self.bind_port))
-        self.listen(backlog)
-
-        print(f'Listening on {self.bind_ip}:{self.bind_port}')
-
-    def handle_client_connection(client_socket):
-        client_socket.send(b"Hello world")
-        client_socket.close()
-
-    def wait_and_thread(self):
-        client_sock, address = self.accept()
-        print(f'Accepted connection from {address[0]}:{address[1]}')
-        client_handler = threading.Thread(
-                target=Server.handle_client_connection,
-                args=(client_sock,)
-                ).start()
+with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    print("serving at port", PORT)
+    httpd.serve_forever()
