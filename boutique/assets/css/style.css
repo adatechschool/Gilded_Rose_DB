@@ -1,0 +1,14 @@
+body 
+{
+    background: pink;
+}
+
+.conteneur
+{
+    padding: 10px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:0;
+}
