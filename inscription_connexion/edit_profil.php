@@ -6,21 +6,23 @@
   <div class="container">
     
     <h1>Mon profil</h1>
-    <p>Retrouvez toutes vos informations ici</p>
+    <p>Modifiez vos informations ici</p>
     <hr>
-
-    <input type="text" placeholder="jean.michelle@mail.com" name="email">
-
     <label for="fname"><b>Prénom</b></label>
     <input type="text" placeholder="Jean-Michelle" name="fname" required>
 
     <label for="lname"><b>Nom</b></label>
     <input type="text" placeholder="Dupont" name="lname" required>
+
+    <label for="psw"><b>Mot de Passe</b></label>
+    <input type="password" placeholder="mettre son mot de passe" name="psw" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+
+    <label for="psw-repeat"><b>Confirmez le Mot de Passe</b></label>
+    <input type="password" placeholder="confirmez le mot de passe" name="psw-repeat" required>
+
     <hr>
     <button type="submit" class="registerbtn">Mettre à jour son profil</button>
     <br>
-    <br>
-    <hr>
     <button type="submit" class="deletebtn">Supprimer son compte</button>
 
   </div>
